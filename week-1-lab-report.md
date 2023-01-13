@@ -1,14 +1,14 @@
 # Week 1 Lab Report
 This is a blog post detailing how to install VS Code, remotely connect to the CSE basement server, and start using commands.
 
-:star2: Installing VS Code
+Installing VS Code
 ---
 1. Go to the VS Code website: [VS Code](https://code.visualstudio.com/)
 2. Follow the instructions for your operating system.
 3. Open the VS Code window:
 ![Coding Window](https://user-images.githubusercontent.com/122575873/212215215-fbde234a-7b5c-47e4-b9ae-7df8b2b3f3b1.png)
 
-:star2: Remotely Connecting to the Server
+Remotely Connecting to the Server
 ---
 1. Open a new terminal in VS Code by selecting Terminal --> New Terminal.
 2. Enter `ssh cs15lwi23____@ieng6.ucsd.edu`, where the blank is the letters in your CSE 15L account.
@@ -28,7 +28,7 @@ This is a visual after login:
 
 *If at any point you want to leave the remote server, just run `exit`.*
 
-:star2: Using Commands
+Using Commands
 ---
 1. You can now start to experiment with commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp`. Some might produce error messages at this point if the directory isn't defined.
 2. You can also try `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. 

@@ -41,7 +41,7 @@ Using Commands
 5. `cp` --> copies a file or directory
 6. `cat` --> reads and ouputs file content
 
-3. You can also try `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. 
+You can also try `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. 
 
 ## Examples
 ![Image](https://user-images.githubusercontent.com/122575873/212230083-a9a16d86-0bd7-406a-a010-5d17291e48fb.png)

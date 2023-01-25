@@ -32,15 +32,15 @@ Using Commands
 ---
 1. You can now start to experiment with commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp`. Some might produce error messages at this point if a directory isn't defined.
 
-**Lab 1 Resubmission Feedback**
+**Feedback for Resubmission**
 **"Explain what these commands do instead of just listing them"**
 ---
-'cd' --> pulls up the current directory 
-'ls' --> lists all files in the current directory
-'pwd' --> prints the working directory
-'mkdir' --> makes a new directory
-'cp' --> copies files and directories
-'cat' --> reads and ouputs file content
+1. `cd` --> pulls up the current directory 
+2. `ls` --> lists all files in the current directory
+3. `pwd` --> prints the working directory
+4. `mkdir` --> makes a new directory
+5. `cp` --> copies a file or directory
+6. `cat` --> reads and ouputs file content
 
 3. You can also try `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. 
 

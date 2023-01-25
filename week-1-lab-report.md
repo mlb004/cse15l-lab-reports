@@ -30,8 +30,19 @@ This is a visual after login:
 
 Using Commands
 ---
-1. You can now start to experiment with commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp`. Some might produce error messages at this point if the directory isn't defined.
-2. You can also try `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. 
+1. You can now start to experiment with commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp`. Some might produce error messages at this point if a directory isn't defined.
+
+**Lab 1 Resubmission Feedback**
+**"Explain what these commands do instead of just listing them"**
+---
+'cd' --> pulls up the current directory 
+'ls' --> lists all files in the current directory
+'pwd' --> prints the working directory
+'mkdir' --> makes a new directory
+'cp' --> copies files and directories
+'cat' --> reads and ouputs file content
+
+3. You can also try `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` and `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`. 
 
 ## Examples
 ![Image](https://user-images.githubusercontent.com/122575873/212230083-a9a16d86-0bd7-406a-a010-5d17291e48fb.png)

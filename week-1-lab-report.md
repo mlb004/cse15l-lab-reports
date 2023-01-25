@@ -32,8 +32,7 @@ Using Commands
 ---
 1. You can now start to experiment with commands like `cd`, `ls`, `pwd`, `mkdir`, and `cp`. Some might produce error messages at this point if a directory isn't defined.
 
-**Feedback for Resubmission**
-**"Explain what these commands do instead of just listing them"**
+**Feedback for Resubmission: "Explain what these commands do instead of just listing them"**
 ---
 1. `cd` --> pulls up the current directory 
 2. `ls` --> lists all files in the current directory

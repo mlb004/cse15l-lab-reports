@@ -65,10 +65,10 @@ As expected, the test passes even though the program is buggy.
 
 **Finally, here is the bug itself (before and after it's fixed):**
 Before:
-`static int[] reversed(int[] arr) {`\s\s
-  `int[] newArray = new int[arr.length];`\s\s
-    `for(int i = 0; i < arr.length; i += 1) {`\s\s
-      `arr[i] = newArray[arr.length - i - 1];`\s\s
+`static int[] reversed(int[] arr) {` \
+  `int[] newArray = new int[arr.length];` \
+    `for(int i = 0; i < arr.length; i += 1) {` \
+      `arr[i] = newArray[arr.length - i - 1];`
     `}`
     `return arr;`
  `}`

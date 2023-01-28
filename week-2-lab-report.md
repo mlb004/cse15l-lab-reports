@@ -52,6 +52,7 @@ I chose a bug from the provided file `ArrayExamples.java` and the method `revers
   `}`
   
 **Here is the symptom (output of running the tests in JUnit):**
+
 testReversedFailedInput:
 ![Image](https://user-images.githubusercontent.com/122575873/215287394-1a026b87-02e5-4733-894c-df8be9cddbf4.png)
 
@@ -64,10 +65,10 @@ As expected, the test passes even though the program is buggy.
 
 **Finally, here is the bug itself (before and after it's fixed):**
 Before:
-`static int[] reversed(int[] arr) {`
-  `int[] newArray = new int[arr.length];`
-    `for(int i = 0; i < arr.length; i += 1) {`
-      `arr[i] = newArray[arr.length - i - 1];`
+`static int[] reversed(int[] arr) {`\s\s
+  `int[] newArray = new int[arr.length];`\s\s
+    `for(int i = 0; i < arr.length; i += 1) {`\s\s
+      `arr[i] = newArray[arr.length - i - 1];`\s\s
     `}`
     `return arr;`
  `}`
@@ -81,7 +82,8 @@ Before:
     `return newArray;`
   `}`
 
-Explanation: Since the method aims to return a *new array* with the elements of the input array reversed, we will change the return statement to newArray instead of arr.  
+Explanation:
+Since the method aims to return a *new array* with the elements of the input array reversed, we will change the return statement to newArray instead of arr.  
 Additionally, we need to copy the input array to the new array (not the other way around), so within the for loop we should switch `arr[i] = newArray[arr.length - i - 1]` to `newArray[i] = arr[arr.length - i - 1]`.  
 This successfully fixes the bug, and the JUnit tests all pass. 
 

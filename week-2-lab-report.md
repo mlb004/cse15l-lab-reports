@@ -36,7 +36,7 @@ I chose a bug from the provided file `ArrayExamples.java` and the method `revers
       `arr[i] = newArray[arr.length - i - 1];` \
     `}` \
     `return arr;` \
- `}` \
+ `}` 
 
 **First, let's include a failure-inducing input for the buggy program (using an associated JUnit test):**
 
@@ -44,7 +44,7 @@ I chose a bug from the provided file `ArrayExamples.java` and the method `revers
   `public void testReversedFailedInput(){` \
     `int[] failedInput = {3,2,1};` \
     `assertArrayEquals(new int[]{1,2,3}, ArrayExamples.reversed(failedInput));` \
-  `}` \
+  `}` 
   
 **Then, let's write a test for a non-failure-inducing input:**
 
@@ -52,7 +52,7 @@ I chose a bug from the provided file `ArrayExamples.java` and the method `revers
   `public void testReversedPassingInput(){` \
     `int[] passingInput = {0};` \
     `assertArrayEquals(new int[]{0}, ArrayExamples.reversed(passingInput));` \
-  `}` \
+  `}` 
   
 **Here is the symptom (output of running the tests in JUnit):**
 
@@ -69,22 +69,24 @@ As expected, the test passes even though the program is buggy.
 **Finally, here is the bug itself (before and after it's fixed):**
 
 Before: 
+
 `static int[] reversed(int[] arr) {` \
   `int[] newArray = new int[arr.length];` \
     `for(int i = 0; i < arr.length; i += 1) {` \
       `arr[i] = newArray[arr.length - i - 1];` \
     `}` \
     `return arr;` \
- `}` \
+ `}` 
  
  After:
+ 
  `static int[] reversed(int[] arr) {` \
     `int[] newArray = new int[arr.length];` \
     `for(int i = 0; i < arr.length; i += 1) {` \
       `newArray[i] = arr[arr.length - i - 1];` \
     `}` \
     `return newArray;` \
-  `}` \
+  `}` 
 
 Explanation:
 Since the method aims to return a *new array* with the elements of the input array reversed, we will change the return statement to newArray instead of arr.  

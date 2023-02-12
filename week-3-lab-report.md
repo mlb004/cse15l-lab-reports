@@ -6,7 +6,7 @@ For this week's lab report, I chose the `grep` command to research. I will provi
 Option #1: `-i`
 ---
 
-The `-i` command for grep renders the search case insensitive. 
+The `-i` command for grep renders the search case-insensitive. 
 
 Examples on ./written_2:
 1. ![Image](https://user-images.githubusercontent.com/122575873/218336365-8950092c-fcb0-4ffe-9228-4cb612262ea3.png)
@@ -17,10 +17,12 @@ Examples on ./written_2:
 As shown above, when I vary the number of capital letters in the String "Bahamas" with the `-i` option added on the command line, the returned files are the same.
 
 
-Source: [Wikibooks](https://en.wikibooks.org/wiki/Grep)
+Sources:
+
+[Wikibooks](https://en.wikibooks.org/wiki/Grep)
 
 
-Option #2: -v
+Option #2: `-v`
 ---
 
 The `-v` command searches for non-matching lines to the input String (thus "inverting" the search process).
@@ -31,16 +33,20 @@ Examples on ./written_2:
 
 
 Not all files are shown! There are quite a lot of them!
+
 The search process is inverted with `-v` and all files that don't contain "History" (including ones with "history" in them, as this grep search is still case-sensitive) are returned. 
 The same idea is applied to "Where" in the second example.
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)
+
 [LibreTexts](https://eng.libretexts.org/Bookshelves/Computer_Science/Operating_Systems/Linux_-_The_Penguin_Marches_On_(McClanahan)/05%3A_File_and_Directory_Management/4.07%3A_Handling_Text_Files/4.07.04%3A_Handling_Text_Files_-_grep_Command)
+
 [Using Grep](https://www.pair.com/support/kb/paircloud-grep/)
 
 
-Option #3: -c
+Option #3: `-c`
 ---
 
 The `-c` command counts the number of lines that match the input String (useful for when you just need to know the number of matching files). 
@@ -57,10 +63,12 @@ For the file that does contain "Lucayans", that number is nonzero.
 
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)
+
 [Using Grep](https://www.pair.com/support/kb/paircloud-grep/)
 
-Option #4: -h
+Option #4: `-h`
 ---
 
 The `-h` command returns files with matching lines without prefacing them with the file name. 
@@ -74,4 +82,5 @@ In the first example, the titles of the files within `grep-results.txt` includin
 In the second example, the instances of "Nepal" within `Nepal-WhatToDo.txt` are highlighted in red without the file name also being outputted.
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)

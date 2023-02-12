@@ -79,7 +79,7 @@ Examples on ./written_2:
 2. ![Image11](https://user-images.githubusercontent.com/122575873/218338669-7518aba5-71c3-4033-9309-f28f5ef38043.png)
 
 
-In the first example, the titles of the files within `grep-results.txt` including "What" are highlighted in red (`-h` ensures `rep-results.txt` is not returned, just the contents that contain "What"). 
+In the first example, the titles of the files within `grep-results.txt` including "What" are highlighted in red (`-h` ensures `grep-results.txt` is not returned, just the contents that contain "What"). 
 In the second example, the instances of "Nepal" within `Nepal-WhatToDo.txt` are highlighted in red without the file name also being outputted.
 
 Sources:

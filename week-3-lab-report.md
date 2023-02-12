@@ -18,6 +18,7 @@ As shown above, when I vary the number of capital letters in the String "Bahamas
 
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 
 
@@ -37,6 +38,7 @@ The search process is inverted with `-v` and all files that don't contain "Histo
 The same idea is applied to "Where" in the second example.
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 
 [LibreTexts](https://eng.libretexts.org/Bookshelves/Computer_Science/Operating_Systems/Linux_-_The_Penguin_Marches_On_(McClanahan)/05%3A_File_and_Directory_Management/4.07%3A_Handling_Text_Files/4.07.04%3A_Handling_Text_Files_-_grep_Command)
@@ -61,6 +63,7 @@ For the file that does contain "Lucayans", that number is nonzero.
 
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 
 [Using Grep](https://www.pair.com/support/kb/paircloud-grep/)
@@ -80,6 +83,7 @@ In the first example, the titles of the files within `grep-results.txt` includin
 In the second example, the instances of "Nepal" within `Nepal-WhatToDo.txt` are highlighted in red without the file name also being outputted.
 
 Sources:
+
 [Wikibooks](https://en.wikibooks.org/wiki/Grep)
 
 [ChatGPT](https://chat.openai.com/chat)

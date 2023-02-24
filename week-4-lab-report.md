@@ -40,7 +40,6 @@ Keys Pressed: Nothing special
 
 
 ## 6. Run JUnit and show that tests fail
----
 
 I copied and pasted the commands to compile and run the JUnit tests from [lab 3's page](https://ucsd-cse15l-w23.github.io/week/week3/) on the course website. As expected, there are failures. 
 
@@ -54,7 +53,6 @@ Keys Pressed: ^C/^V for copy-pasting on Mac
 
 
 ## 7. Edit the code file to correct errors
----
 
 From the command line, I used `nano` to open the text editor. Based on the JUnit failure message in the last step, I know that the error is within the merge method of `ListExamples.java`. I eventually find that instead of `index1` in the last while loop, it should be `index2`. 
 
@@ -69,7 +67,6 @@ Keys Pressed: *up down left right* arrow keys to navigate to where the error was
 
   
 ## 8. Run JUnit and show that tests pass 
----
 
 I used the exact same compile and run commands as in Step #6 so I won't go over them again here. The important thing is that now the JUnit tests show as passed.
   
@@ -83,7 +80,6 @@ Keys Pressed: Nothing special
 
  
 ## 9. Add, commit, push
----
 
 Nothing much to describe here. I just used the commands add, commit (with commit message denoted by `-m`), and push on ListExamples.java the to save the edits I made to it.
 I also used the command git status to show me the current state of my branch.

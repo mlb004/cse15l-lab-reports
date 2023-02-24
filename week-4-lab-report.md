@@ -18,17 +18,15 @@ Keys Pressed: Nothing special
 
 
 I am logged into my account on ieng6 in the home directory. I will `pwd` from the command line to get the path and then add `/lab7` since it is the name of the repository I want to delete.
-The -r option recursively goes through all the files in the given directory and deletes them. I press `y` several times to ensure everything is deleted. 
+The `-r` option recursively goes through all the files in the given directory and deletes them. I press `y` several times to ensure everything is deleted. 
 
 
 ## 4. Log into ieng6
----
 
 Please see [Week 1 Lab Report](https://mlb004.github.io/cse15l-lab-reports/week-1-lab-report) for instructions on how to log into the remote server. 
 
 
 ## 5. Clone fork
----
 
 I made a fork of the desired repository and cloned it on the command line. Then, I `cd`'d into lab7. 
 

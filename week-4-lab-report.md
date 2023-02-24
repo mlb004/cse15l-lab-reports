@@ -13,6 +13,7 @@ I still need to delete my existing fork of the github repository from my last pr
 
 
 Commands: `pwd`, `rm -r /home/linux/ieng6/cs15lwi23/cs15lwi23ahx/lab7`
+
 Keys Pressed: Nothing special
 
 
@@ -36,6 +37,7 @@ I made a fork of the desired repository and cloned it on the command line. Then,
 
 
 Commands: `git clone https://github.com/mlb004/lab7`, `cd lab7`
+
 Keys Pressed: Nothing special
 
 
@@ -49,6 +51,7 @@ I copied and pasted the commands to compile and run the JUnit tests from [lab 3'
 
 
 Commands: See above
+
 Keys Pressed: ^C/^V for copy-pasting on Mac
 
 
@@ -63,6 +66,7 @@ From the command line, I used `nano` to open the text editor. Based on the JUnit
 
 
 Commands: `nano ListExamples.java`, ^X to quit the text editor
+
 Keys Pressed: *up down left right* arrow keys to navigate to where the error was
 
   
@@ -76,6 +80,7 @@ I used the exact same compile and run commands as in Step #6 so I won't go over 
 
   
 Commands: See above
+
 Keys Pressed: Nothing special
 
  
@@ -96,4 +101,5 @@ Here is the edited file on github.com:
 
 
 Commands: `git add ListExamples.java`, `git commit -m "update"`, `git status`, `git push -u origin main`
+
 Keys Pressed: Nothing special

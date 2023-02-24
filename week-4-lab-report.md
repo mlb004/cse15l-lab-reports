@@ -2,7 +2,7 @@
 
 For this week's lab report, I will go through the steps for lab 7's competition tasks.
 
-##1,2,3. Setup
+1,2,3. Setup
 ---
 
 If this is your first time attempting the tasks, you can skip this section.
@@ -20,13 +20,13 @@ I am logged into my account on ieng6 in the home directory. I will `pwd` from th
 The -r option recursively goes through all the files in the given directory and deletes them. I press `y` several times to ensure everything is deleted. 
 
 
-##4. Log into ieng6
+4. Log into ieng6
 ---
 
 Please see [Week 1 Lab Report](https://mlb004.github.io/cse15l-lab-reports/week-1-lab-report) for instructions on how to log into the remote server. 
 
 
-##5. Clone fork
+5. Clone fork
 ---
 
 I made a fork of the desired repository and cloned it on the command line. Then, I `cd`'d into lab7. 
@@ -39,7 +39,7 @@ Commands: `git clone https://github.com/mlb004/lab7`, `cd lab7`
 Keys Pressed: Nothing special
 
 
-##6. Run JUnit and show that tests fail
+6. Run JUnit and show that tests fail
 ---
 
 I copied and pasted the commands to compile and run the JUnit tests from [lab 3's page](https://ucsd-cse15l-w23.github.io/week/week3/) on the course website. As expected, there are failures. 
@@ -52,7 +52,7 @@ Commands: See above
 Keys Pressed: ^C/^V for copy-pasting on Mac
 
 
-##7. Edit the code file to correct errors
+7. Edit the code file to correct errors
 ---
 
 From the command line, I used `nano` to open the text editor. Based on the JUnit failure message in the last step, I know that the error is within the merge method of `ListExamples.java`. I eventually find that instead of `index1` in the last while loop, it should be `index2`. 
@@ -66,7 +66,7 @@ Commands: `nano ListExamples.java`, ^X to quit the text editor
 Keys Pressed: *up down left right* arrow keys to navigate to where the error was
 
   
-##8. Run JUnit and show that tests pass 
+8. Run JUnit and show that tests pass 
 ---
 
 I used the exact same compile and run commands as in Step #6 so I won't go over them again here. The important thing is that now the JUnit tests show as passed.
@@ -79,7 +79,7 @@ Commands: See above
 Keys Pressed: Nothing special
 
  
-##9. Add, commit, push
+9. Add, commit, push
 ---
 
 Nothing much to describe here. I just used the commands add, commit (with commit message denoted by `-m`), and push on ListExamples.java the to save the edits I made to it.

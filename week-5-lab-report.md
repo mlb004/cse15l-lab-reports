@@ -1,7 +1,7 @@
 # Week 5 Lab Report
 
 For this week's lab report, I will essentially "redo" lab report 3 with an exploration of options for a different command: `less` (as opposed to `grep`).
-Like last time, I will provide 4 options with around 2 examples each of the options on ./written_2 .
+Like last time, I will provide 4 options with around 2 examples each of the options in use. 
 
 
 Option #1: `-E`
@@ -10,6 +10,7 @@ Option #1: `-E`
 The `-E` command makes `less` automatically exit after coming to the end of the file. 
 
 Examples on ./written_2:
+
 1.![Image1](https://user-images.githubusercontent.com/122575873/224565638-2d18442e-ea3a-4744-b706-fa61740d65d8.png)
 ![Image2](https://user-images.githubusercontent.com/122575873/224565685-7ea20d71-ae20-45ee-a4d4-02b443298d0f.png)
 ![Image3](https://user-images.githubusercontent.com/122575873/224565705-185c0731-cb49-428d-bce3-42acb7f6eee5.png)
@@ -20,7 +21,7 @@ Examples on ./written_2:
 
 
 It's hard to properly see with only screenshots, but after I scroll down to the bottom of the file it automatically exits back to the command line.
-This command option is particularly useful if you're in a hurry or forgot the keystrokes to exit out of a file (`q`, if you're wondering). 
+This command option is particularly useful if you're in a hurry or forgot the keystroke to exit out of a file (`q`). 
 
 
 Option #2: `-I`
@@ -39,6 +40,7 @@ Examples on ./written_2:
 You can press `/` and then type your search term to search the file with `less`. The found words/phrases are highlighted.
 Normally, `less` is case-sensitive, but using the `-I` option renders it case-insensitive (including capital letters).
 Here, I search for "economics" as well as "eCoNoMicS" and "EconoMiCs" in `ch15.txt`. They all return the same results, as expected. 
+
 Note that while I was just checking the first returned result for these search terms, you can move to the next instance found by pressing `n` or go back by pressing `N`.
 `less -i` is just like find and replace sans the replace. 
 

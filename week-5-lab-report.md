@@ -44,7 +44,7 @@ Normally, `less` is case-sensitive, but using the `-I` option renders it case-in
 Here, I search for "economics" as well as "eCoNoMicS" and "EconoMiCs" in `ch15.txt`. They all return the same results, as expected. 
 
 Note that while I was just checking the first returned result for these search terms, you can move to the next instance found by pressing `n` or go back by pressing `N`.
-`less -i` is just like find and replace sans the replace. 
+`less -I` is just like find and replace sans the replace. 
 
 
 Option #3: `-g`
@@ -67,7 +67,7 @@ Option #4: `-J`
 ---
 
 The `-J` command pulls up a status column that shows the lines matching the current search term.
-(It also shows lines marked using the `-m` or `-M` options, which are similar to the `more` command in that they're like `less` with *less* functionalities). 
+It also shows lines marked using the `-m` or `-M` options, which are similar to the `more` command in that they're like `less` with less functionalities (no pun intended). 
 
 Examples on ./written_2:
 1. ![Image16](https://user-images.githubusercontent.com/122575873/224568187-b6886ad2-f87c-4072-8f62-b107e3cc892a.png)

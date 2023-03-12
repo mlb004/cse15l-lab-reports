@@ -11,11 +11,13 @@ The `-E` command makes `less` automatically exit after coming to the end of the 
 
 Examples on ./written_2:
 
-1.![Image1](https://user-images.githubusercontent.com/122575873/224565638-2d18442e-ea3a-4744-b706-fa61740d65d8.png)
+1.
+![Image1](https://user-images.githubusercontent.com/122575873/224565638-2d18442e-ea3a-4744-b706-fa61740d65d8.png)
 ![Image2](https://user-images.githubusercontent.com/122575873/224565685-7ea20d71-ae20-45ee-a4d4-02b443298d0f.png)
 ![Image3](https://user-images.githubusercontent.com/122575873/224565705-185c0731-cb49-428d-bce3-42acb7f6eee5.png)
 
-2. ![Image4](https://user-images.githubusercontent.com/122575873/224565910-524e8859-8d6d-477c-86b7-c45c795d4144.png)
+2.
+![Image4](https://user-images.githubusercontent.com/122575873/224565910-524e8859-8d6d-477c-86b7-c45c795d4144.png)
 ![Image5](https://user-images.githubusercontent.com/122575873/224565963-8a83568e-e0cf-4c72-ad8d-e110a14a53e7.png)
 ![Image6](https://user-images.githubusercontent.com/122575873/224566013-9d0d2585-5a45-41c3-b2e9-88627815ad53.png)
 
